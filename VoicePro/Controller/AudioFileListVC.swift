@@ -56,23 +56,25 @@ class AudioFileListVC: BaseViewController, UITableViewDataSource, UITableViewDel
 
     // UITableView Delegate (play or save to files on selection)
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let audioFile = savedAudioFiles[indexPath.row]
-        
-        // Option to play or save to device files
-        let alert = UIAlertController(title: audioFile.fileName, message: "What would you like to do?", preferredStyle: .actionSheet)
-        
-        // Play the audio
-        alert.addAction(UIAlertAction(title: "Play", style: .default, handler: { _ in
-            self.playAudio(audioFile: audioFile)
-        }))
-        
-        // Save to device
-        alert.addAction(UIAlertAction(title: "Save to Files", style: .default, handler: { _ in
-            self.saveToFiles(audioFile: audioFile)
-        }))
-        
-        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-        present(alert, animated: true, completion: nil)
+        tableView.deselectRow(at: indexPath, animated: true)
+        showToast()
+//        let audioFile = savedAudioFiles[indexPath.row]
+//        
+//        // Option to play or save to device files
+//        let alert = UIAlertController(title: audioFile.fileName, message: "What would you like to do?", preferredStyle: .actionSheet)
+//        
+//        // Play the audio
+//        alert.addAction(UIAlertAction(title: "Play", style: .default, handler: { _ in
+//            self.playAudio(audioFile: audioFile)
+//        }))
+//        
+//        // Save to device
+//        alert.addAction(UIAlertAction(title: "Save to Files", style: .default, handler: { _ in
+//            self.saveToFiles(audioFile: audioFile)
+//        }))
+//        
+//        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+//        present(alert, animated: true, completion: nil)
     }
 
     // Play audio function

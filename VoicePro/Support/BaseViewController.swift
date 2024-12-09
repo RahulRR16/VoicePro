@@ -14,12 +14,12 @@ class BaseViewController: UIViewController {
         super.viewDidLoad()
         buildUI()
     }
-
+    
     // MARK: - Setup Methods
     
     func buildUI() {
-//        let themeColor = ThemeManager.shared.currentThemeColor
-//        view.backgroundColor = themeColor
+        //        let themeColor = ThemeManager.shared.currentThemeColor
+        //        view.backgroundColor = themeColor
         view.backgroundColor = UIColor(hexString: "#292C30")
         let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
         navigationController?.navigationBar.titleTextAttributes = textAttributes
@@ -38,17 +38,23 @@ class BaseViewController: UIViewController {
         alertController.overrideUserInterfaceStyle = .dark
         present(alertController, animated: true, completion: nil)
     }
-
+    
     // MARK: - Logging
     
     func log(_ message: String) {
         print("[\(String(describing: type(of: self)))] \(message)")
     }
-
+    
     // MARK: - Navigation
     
     func navigate(to viewController: UIViewController) {
         navigationController?.pushViewController(viewController, animated: true)
+    }
+    
+    func showToast() {
+        let alert = UIAlertController(title: "Oops", message: "Coming soon!", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
     }
     
 }

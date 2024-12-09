@@ -84,10 +84,4 @@ class SettingsViewController: BaseViewController, UITableViewDelegate, UITableVi
         return topVC
     }
     
-    func showToast() {
-        let alert = UIAlertController(title: "Oops", message: "Coming soon!", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-        present(alert, animated: true, completion: nil)
-    }
-    
 }
