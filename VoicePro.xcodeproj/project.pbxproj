@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF274CF1A7B2AD142B306F7 /* Pods_VoicePro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478FA80E86C57D43D6AA30BF /* Pods_VoicePro.framework */; };
+		D134A4A52CC70B1C00E5B35F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D134A4992CC70B1C00E5B35F /* AppDelegate.swift */; };
+		D134A4A62CC70B1C00E5B35F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D134A4A02CC70B1C00E5B35F /* SceneDelegate.swift */; };
+		D134A4A82CC70B1C00E5B35F /* VoicePro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D134A4A22CC70B1C00E5B35F /* VoicePro.xcdatamodeld */; };
+		D134A4A92CC70B1C00E5B35F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D134A49A2CC70B1C00E5B35F /* Assets.xcassets */; };
+		D134A4AB2CC70B1C00E5B35F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D134A49D2CC70B1C00E5B35F /* LaunchScreen.storyboard */; };
+		D134A4B22CC70D8C00E5B35F /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D134A4AE2CC70D8C00E5B35F /* SettingsTableViewCell.swift */; };
+		D134A4B32CC70D8C00E5B35F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D134A4B02CC70D8C00E5B35F /* Main.storyboard */; };
+		D134A4BB2CC70D9400E5B35F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D134A4B42CC70D9400E5B35F /* TabBarViewController.swift */; };
+		D134A4BC2CC70D9400E5B35F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D134A4B72CC70D9400E5B35F /* SettingsViewController.swift */; };
+		D134A4BE2CC70D9400E5B35F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D134A4B82CC70D9400E5B35F /* HomeVC.swift */; };
+		D134A4BF2CC70D9400E5B35F /* AudioFileListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D134A4B92CC70D9400E5B35F /* AudioFileListVC.swift */; };
+		D134A4C82CC70DA000E5B35F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D134A4C02CC70DA000E5B35F /* BaseViewController.swift */; };
+		D134A4CA2CC70DA000E5B35F /* TableViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D134A4C12CC70DA000E5B35F /* TableViewSupport.swift */; };
+		D134A4CB2CC70DA000E5B35F /* UIColorSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D134A4C22CC70DA000E5B35F /* UIColorSupport.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18298E90A37CAD259B6278AD /* Pods-VoicePro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoicePro.release.xcconfig"; path = "Target Support Files/Pods-VoicePro/Pods-VoicePro.release.xcconfig"; sourceTree = "<group>"; };
+		478FA80E86C57D43D6AA30BF /* Pods_VoicePro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoicePro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F4445CB776862132E047DF /* Pods-VoicePro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoicePro.debug.xcconfig"; path = "Target Support Files/Pods-VoicePro/Pods-VoicePro.debug.xcconfig"; sourceTree = "<group>"; };
+		D134A4992CC70B1C00E5B35F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D134A49A2CC70B1C00E5B35F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D134A49B2CC70B1C00E5B35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D134A49C2CC70B1C00E5B35F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D134A4A02CC70B1C00E5B35F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D134A4A42CC70B1C00E5B35F /* VoicePro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VoicePro.xcdatamodel; sourceTree = "<group>"; };
+		D134A4AE2CC70D8C00E5B35F /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		D134A4AF2CC70D8C00E5B35F /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D134A4B42CC70D9400E5B35F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		D134A4B72CC70D9400E5B35F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D134A4B82CC70D9400E5B35F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		D134A4B92CC70D9400E5B35F /* AudioFileListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioFileListVC.swift; sourceTree = "<group>"; };
+		D134A4C02CC70DA000E5B35F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D134A4C12CC70DA000E5B35F /* TableViewSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSupport.swift; sourceTree = "<group>"; };
+		D134A4C22CC70DA000E5B35F /* UIColorSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorSupport.swift; sourceTree = "<group>"; };
+		D199E6622CC708A200D4CDEB /* VoicePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoicePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D199E65F2CC708A200D4CDEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF274CF1A7B2AD142B306F7 /* Pods_VoicePro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D059E0BA2CA6BF9703C3AD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82F4445CB776862132E047DF /* Pods-VoicePro.debug.xcconfig */,
+				18298E90A37CAD259B6278AD /* Pods-VoicePro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D134A4A32CC70B1C00E5B35F /* VoicePro */ = {
+			isa = PBXGroup;
+			children = (
+				D134A4992CC70B1C00E5B35F /* AppDelegate.swift */,
+				D134A4A02CC70B1C00E5B35F /* SceneDelegate.swift */,
+				D134A49A2CC70B1C00E5B35F /* Assets.xcassets */,
+				D134A49B2CC70B1C00E5B35F /* Info.plist */,
+				D134A49D2CC70B1C00E5B35F /* LaunchScreen.storyboard */,
+				D134A4AD2CC70D8800E5B35F /* Model */,
+				D134A4B12CC70D8C00E5B35F /* View */,
+				D134A4BA2CC70D9400E5B35F /* Controller */,
+				D134A4C62CC70DA000E5B35F /* Support */,
+				D134A4A22CC70B1C00E5B35F /* VoicePro.xcdatamodeld */,
+			);
+			path = VoicePro;
+			sourceTree = "<group>";
+		};
+		D134A4AD2CC70D8800E5B35F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D134A4B12CC70D8C00E5B35F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D134A4CC2CC70EAE00E5B35F /* Cell */,
+				D134A4B02CC70D8C00E5B35F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D134A4B52CC70D9400E5B35F /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				D134A4B42CC70D9400E5B35F /* TabBarViewController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		D134A4BA2CC70D9400E5B35F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D134A4B82CC70D9400E5B35F /* HomeVC.swift */,
+				D134A4B72CC70D9400E5B35F /* SettingsViewController.swift */,
+				D134A4B92CC70D9400E5B35F /* AudioFileListVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D134A4C32CC70DA000E5B35F /* ColorHex */ = {
+			isa = PBXGroup;
+			children = (
+				D134A4C22CC70DA000E5B35F /* UIColorSupport.swift */,
+			);
+			path = ColorHex;
+			sourceTree = "<group>";
+		};
+		D134A4C62CC70DA000E5B35F /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D134A4B52CC70D9400E5B35F /* TabBarController */,
+				D134A4C02CC70DA000E5B35F /* BaseViewController.swift */,
+				D134A4C12CC70DA000E5B35F /* TableViewSupport.swift */,
+				D134A4C32CC70DA000E5B35F /* ColorHex */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		D134A4CC2CC70EAE00E5B35F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D134A4AE2CC70D8C00E5B35F /* SettingsTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D199E6592CC708A200D4CDEB = {
+			isa = PBXGroup;
+			children = (
+				D134A4A32CC70B1C00E5B35F /* VoicePro */,
+				D199E6632CC708A200D4CDEB /* Products */,
+				1D059E0BA2CA6BF9703C3AD9 /* Pods */,
+				E128A06BD67C6B0CFCF43C04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D199E6632CC708A200D4CDEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D199E6622CC708A200D4CDEB /* VoicePro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E128A06BD67C6B0CFCF43C04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				478FA80E86C57D43D6AA30BF /* Pods_VoicePro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D199E6612CC708A200D4CDEB /* VoicePro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D199E6782CC708A300D4CDEB /* Build configuration list for PBXNativeTarget "VoicePro" */;
+			buildPhases = (
+				9625A3C1C1893942DFEC3819 /* [CP] Check Pods Manifest.lock */,
+				D199E65E2CC708A200D4CDEB /* Sources */,
+				D199E65F2CC708A200D4CDEB /* Frameworks */,
+				D199E6602CC708A200D4CDEB /* Resources */,
+				F52AA9CD15799EB8B3BD2972 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoicePro;
+			productName = VoicePro;
+			productReference = D199E6622CC708A200D4CDEB /* VoicePro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D199E65A2CC708A200D4CDEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D199E6612CC708A200D4CDEB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = D199E65D2CC708A200D4CDEB /* Build configuration list for PBXProject "VoicePro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D199E6592CC708A200D4CDEB;
+			productRefGroup = D199E6632CC708A200D4CDEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D199E6612CC708A200D4CDEB /* VoicePro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D199E6602CC708A200D4CDEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D134A4A92CC70B1C00E5B35F /* Assets.xcassets in Resources */,
+				D134A4AB2CC70B1C00E5B35F /* LaunchScreen.storyboard in Resources */,
+				D134A4B32CC70D8C00E5B35F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9625A3C1C1893942DFEC3819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoicePro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F52AA9CD15799EB8B3BD2972 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoicePro/Pods-VoicePro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoicePro/Pods-VoicePro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoicePro/Pods-VoicePro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D199E65E2CC708A200D4CDEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D134A4A52CC70B1C00E5B35F /* AppDelegate.swift in Sources */,
+				D134A4BB2CC70D9400E5B35F /* TabBarViewController.swift in Sources */,
+				D134A4BC2CC70D9400E5B35F /* SettingsViewController.swift in Sources */,
+				D134A4C82CC70DA000E5B35F /* BaseViewController.swift in Sources */,
+				D134A4CA2CC70DA000E5B35F /* TableViewSupport.swift in Sources */,
+				D134A4CB2CC70DA000E5B35F /* UIColorSupport.swift in Sources */,
+				D134A4BE2CC70D9400E5B35F /* HomeVC.swift in Sources */,
+				D134A4BF2CC70D9400E5B35F /* AudioFileListVC.swift in Sources */,
+				D134A4A62CC70B1C00E5B35F /* SceneDelegate.swift in Sources */,
+				D134A4B22CC70D8C00E5B35F /* SettingsTableViewCell.swift in Sources */,
+				D134A4A82CC70B1C00E5B35F /* VoicePro.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D134A49D2CC70B1C00E5B35F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D134A49C2CC70B1C00E5B35F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D134A4B02CC70D8C00E5B35F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D134A4AF2CC70D8C00E5B35F /* Main.storyboard */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D199E6792CC708A300D4CDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F4445CB776862132E047DF /* Pods-VoicePro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DP98CSF8MX;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoicePro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulrr.VoicePro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D199E67A2CC708A300D4CDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18298E90A37CAD259B6278AD /* Pods-VoicePro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DP98CSF8MX;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoicePro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulrr.VoicePro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D199E67B2CC708A300D4CDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D199E67C2CC708A300D4CDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D199E65D2CC708A200D4CDEB /* Build configuration list for PBXProject "VoicePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D199E67B2CC708A300D4CDEB /* Debug */,
+				D199E67C2CC708A300D4CDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D199E6782CC708A300D4CDEB /* Build configuration list for PBXNativeTarget "VoicePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D199E6792CC708A300D4CDEB /* Debug */,
+				D199E67A2CC708A300D4CDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D134A4A22CC70B1C00E5B35F /* VoicePro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D134A4A42CC70B1C00E5B35F /* VoicePro.xcdatamodel */,
+			);
+			currentVersion = D134A4A42CC70B1C00E5B35F /* VoicePro.xcdatamodel */;
+			path = VoicePro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D199E65A2CC708A200D4CDEB /* Project object */;
+}
